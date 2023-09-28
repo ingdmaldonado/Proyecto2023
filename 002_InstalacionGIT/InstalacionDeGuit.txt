@@ -29,6 +29,10 @@
 
 	git status (para chequear que se hayan sumado al repositorio)
 
-7mo) 
+7mo) COMMIT
+
+	git commit - m "mi primer commit"
+
+	Esto hace commit a la base
 
 
