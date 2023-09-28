@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>ABMCliente</title>    
+</head>
+<body>
+    <h1>ABM CLIENTE</h1>
+    <div>
+        <h2>PRIMERA PARTE - CONSULTA CLIENTE POR (ID) </h2>
+        <label>Ingresar (ID) CLIENTE:</label>
+        <input type="number" value=0 min="1" placeholder="Ingrese (ID) cliente" id="txtClienteIdParaBuscar">
+        <input type="button" value="Buscar Cliente por (ID)" id="btnBuscarClientePorId">
+    </div>
+    <br>
+    <div>
+        <h2>SEGUNDA PARTE - CONSULTA POR (CUIT)</h2>
+        <label>Ingresar (CUIT) del CLIENTE:</label>
+        <input type="number" placeholder="Ingrese (CUIT) cliente" id="txtClienteCuitParaBuscar">
+        <input type="button" value="Buscar Cliente por (CUIT)" id="btnBuscarClientePorCuit">
+    </div>
+    <br>
+    <div>
+        <h2>TERCERA PARTE - VISUALIZACION DATOS DEL CLIENTE</h2>
+        <label>ID:</label>
+        <input type="text" readonly id="txtclienteid" value = 0>
+        <br>
+        <label>CUIT:</label>
+        <input type="text" id="txtclientecuit" value = "">
+        <br>
+        <label>NOMBRE:</label>
+        <input type="text" id="txtclientenombre" value = "">
+        <br>
+        <br>
+        <input type="button" value="Nuevo Cliente" id="btnNuevoCliente">
+        <input type="button" value="Guardar Cambios" id="btnGuardarCambios">      
+    </div>
+    <br>
+    <div>
+        <h2>CUARTA PARTE - CONSULTA POR NOMBRE</h2>
+        <label>Ingresar (NOMBRE) del CLIENTE:</label>
+        <input type="text" placeholder="Ingrese (NOMBRE) del cliente" id="txtClienteNombreParaBuscar">
+        <input type="button" value="Buscar Cliente por (NOMBRE)" id="btnBuscarClientePorNombre">
+        <br>
+        <br>
+
+        <div>
+            <table border="2">
+                <caption>Listado de Clientes</caption>
+                <thead>
+                    <th>(ID)</th>
+                    <th>CUIT</th>
+                    <th>NOMBRE</th>
+                    <th>SELECCIONAR</th>
+                </thead>
+                <tbody id="idTableBody">                 
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div>
+        <h2>QUINTA PARTE - CONSULTA PROGRESIVA POR NOMBRE</h2>
+        <input type="text" placeholder="Igrese Apellido y/o Nombres" value = "" id="idtxtBusquedaProgresiva">        
+        <label id="idlblBusquedaProgresiva"></label>
+    </div>
+
+    <script src="abm_cliente.js"></script>
+</body>
+</html>

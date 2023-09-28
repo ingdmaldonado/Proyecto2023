@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "npm": "^10.1.0",
+    "pg": "^8.11.3"
+  },
+  "name": "proyectonode2023",
+  "version": "1.0.0",
+  "main": "progprincipal.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon progprincipal.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

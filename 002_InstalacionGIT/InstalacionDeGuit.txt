@@ -1,0 +1,34 @@
+
+
+1ro) INSTALAR GIT (Todo por Defecto) - Chequear Vesion e INSTALACION
+
+	git --version
+
+2do) CONFIGURAMOS USUARIO
+
+	git config --global user.name "ingdmaldonado@gmail.com"
+
+3ro) CONFIGURAMOS EMAIL
+
+	git config --global user.email "ingdmaldonado@gmail.com"
+
+
+4to) ARRANCAMOS GIT en la CARPETA
+
+	git init
+
+5to) CHEQUEAMOS QUE ARCHIVOS NO ESTÁN EN EL REPOSITORIO
+
+	git status
+
+5to) SUMAMOS AL REPOSITORIO LOS ARCHIVOS
+
+	git add .
+
+6to) CHEQUEAMOS QUE ARCHIVOS NO ESTÁN EN EL REPOSITORIO
+
+	git status (para chequear que se hayan sumado al repositorio)
+
+7mo) 
+
+
