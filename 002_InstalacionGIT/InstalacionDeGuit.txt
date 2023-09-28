@@ -33,6 +33,9 @@
 
 	git commit - m "mi primer commit"
 
-	Esto hace commit a la base
+8vo) CHEQUEAR LOS COMMIT
+
+	git log
+
 
 
