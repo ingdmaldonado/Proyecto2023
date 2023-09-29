@@ -113,6 +113,13 @@
 		Si has configurado múltiples remotos para tu repositorio local, puedes especificar el nombre del remoto que deseas utilizar en lugar de "origin" en el comando `git push`. Por ejemplo, si tienes un remoto llamado "upstream," puedes utilizar `git push upstream master` para empujar los cambios a ese remoto en lugar de "origin."
 
 
+	/*********************************************************/
+	/***************** EN LA PC REMOTA ***********************/
+	/*********************************************************/
 
-		
+	12) CLONAR EL REPOSITORIO EN OTRA PC (U.N.A. S.O.L.A. V.E.Z.)
+	
+		git clone https://github.com/ingdmaldonado/Proyecto2023.git 
+
+	
 	
