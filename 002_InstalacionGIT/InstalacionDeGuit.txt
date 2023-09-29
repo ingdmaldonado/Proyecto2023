@@ -67,40 +67,52 @@
 /******************** OTRO VIDEO ************************/
 /********************************************************/
 
-	1) Instalar GIT
+	1) Instalar GIT (U.N.A. S.O.L.A. V.E.Z.)
 
 	2) git -version
 
-	3) Registrar Usuario por primera vez
+	3) Registrar Usuario por primera vez (U.N.A. S.O.L.A. V.E.Z.)
 
 		git config --global user.name "ingdmaldonado@gmail.com"
 
 		git config --global user.email "ingdmaldonado@gmail.com
 
-	4) Pararnos en la carpeta y iniciar guit (Una sola vez)
+	4) Pararnos en la carpeta y iniciar guit (U.N.A. S.O.L.A. V.E.Z.)
 
 		git init
 
-	5) Sumar al Repositorio local los Cambios realizados (PREPARAR LOS CAMBIOS)
+	5) Sumar al Repositorio local los Cambios realizados (PREPARAR LOS CAMBIOS) (M-U-L-T-I-P-L-E-S- V-E-C-E-S)
 
 		git add . 
 
-	6) Persistir los cambios "commit"
+	6) Persistir los cambios "commit" (M-U-L-T-I-P-L-E-S- V-E-C-E-S)
 
 		git commit -m "mensaje commit"
 
-	7) Ver todos los commit realizados
+	7) Ver todos los commit realizados (M-U-L-T-I-P-L-E-S- V-E-C-E-S)
 
 		git log --online  (lo muestra mas resumido)
 
 		git log (lo muestra completo)
 
-	8) Registrarnos en GitHUB
+	8) Registrarnos en GitHUB (U.N.A. S.O.L.A. V.E.Z.)
 
-	9) Creamos Repositorio en GITHUB
+	9) Creamos Repositorio en GITHUB (U.N.A. S.O.L.A. V.E.Z.)
 
-	10) 
+	10) VINCULAMOS REPOSITORIO LOCAL(master) <=> CON LA NUBE (U.N.A. S.O.L.A. V.E.Z.)
 
-	
+		git remote add origin https://github.com/ingdmaldonado/Proyecto2023.git 
 
+	11) SUBIMOS LOS CAMBIOS A GITHUB (M-U-L-T-I-P-L-E-S- V-E-C-E-S)
+
+		git push origin master
+
+		La palabra "origin" en el comando `git push origin master` hace referencia a un **nombre de remoto**. En este contexto, "origin" es el nombre convencionalmente utilizado para referirse al repositorio remoto desde el cual clonaste tu repositorio local. "Origin" es simplemente un alias que se utiliza para referirse a esa ubicación remota específica.
+		Cuando clonas un repositorio desde GitHub o cualquier otra plataforma de alojamiento, Git automáticamente configura "origin" como el nombre predeterminado del remoto para ese repositorio. Es una convención común, pero no es una palabra clave del comando en sí. Puedes cambiar el nombre del remoto a algo diferente si lo deseas, pero "origin" es el nombre convencionalmente utilizado y es fácil de recordar.
+		Por lo tanto, en `git push origin master`, "origin" se usa para indicar que estás empujando tus cambios hacia el repositorio remoto asociado con el nombre "origin," y "master" hace referencia a la rama que deseas empujar al repositorio remoto.
+		Si has configurado múltiples remotos para tu repositorio local, puedes especificar el nombre del remoto que deseas utilizar en lugar de "origin" en el comando `git push`. Por ejemplo, si tienes un remoto llamado "upstream," puedes utilizar `git push upstream master` para empujar los cambios a ese remoto en lugar de "origin."
+
+
+
+		
 	
