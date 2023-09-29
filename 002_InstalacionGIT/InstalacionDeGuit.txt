@@ -63,8 +63,9 @@
 	https://www.youtube.com/watch?v=vlCXdvcgiE0
 
 
-
+/********************************************************/
 /******************** OTRO VIDEO ************************/
+/********************************************************/
 
 	1) Instalar GIT
 
@@ -80,6 +81,26 @@
 
 		git init
 
-	5) 
+	5) Sumar al Repositorio local los Cambios realizados (PREPARAR LOS CAMBIOS)
+
+		git add . 
+
+	6) Persistir los cambios "commit"
+
+		git commit -m "mensaje commit"
+
+	7) Ver todos los commit realizados
+
+		git log --online  (lo muestra mas resumido)
+
+		git log (lo muestra completo)
+
+	8) Registrarnos en GitHUB
+
+	9) Creamos Repositorio en GITHUB
+
+	10) 
+
+	
 
 	
