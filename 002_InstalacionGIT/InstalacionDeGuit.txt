@@ -127,6 +127,10 @@
 
 		git pull origin master (bajar cambios)
 
+	14) Este es el Fin del Resumen para ver la funcionalidad del GIT/GITHUB
+
+		
+
 
 
 	
