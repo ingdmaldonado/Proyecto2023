@@ -1,4 +1,7 @@
 
+/******************************************************************************************/
+/************************************* GIT ************************************************/
+/******************************************************************************************/
 
 1ro) INSTALAR GIT (Todo por Defecto) - Chequear Vesion e INSTALACION
 
@@ -37,5 +40,46 @@
 
 	git log
 
+9no) CHEQUEAR LAS RAMAS QUE TENGO
+
+	git branch
 
 
+
+/******************************************************************************************/
+/************************************* GIT HUB ********************************************/
+/******************************************************************************************/
+
+	1ro) Registrarnos en GitHub (en la Web)
+
+	2do) Crear el Repositorio (en la Web)
+
+	3ro) Supongo que con esto vinculo el proyecto local => con el remoto
+
+		git remote add origin https://github.com/ingdmaldonado/Proyecto2023.git 
+
+	4to) git push origin master
+
+	https://www.youtube.com/watch?v=vlCXdvcgiE0
+
+
+
+/******************** OTRO VIDEO ************************/
+
+	1) Instalar GIT
+
+	2) git -version
+
+	3) Registrar Usuario por primera vez
+
+		git config --global user.name "ingdmaldonado@gmail.com"
+
+		git config --global user.email "ingdmaldonado@gmail.com
+
+	4) Pararnos en la carpeta y iniciar guit (Una sola vez)
+
+		git init
+
+	5) 
+
+	
