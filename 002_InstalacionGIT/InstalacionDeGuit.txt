@@ -121,5 +121,13 @@
 	
 		git clone https://github.com/ingdmaldonado/Proyecto2023.git 
 
+	13) ACTUALIZAR EL REPOSITORIO (M-U-L-T-I-P-L-E-S- V-E-C-E-S)
+
+		git push origin master
+
+		git pull origin master (bajar cambios)
+
+
+
 	
 	
